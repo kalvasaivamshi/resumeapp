@@ -1,0 +1,205 @@
+
+<div class="container">
+  
+    <!--
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">{{user.fullname}}                                            </span> 
+      
+    </div>
+    
+    <div class="contact-info">
+      <span class="email">Email: </span>
+      <span class="email-val">{{user.email}}</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: </span>
+      <span class="phone-val">{{user.mobile}}</span>
+    </div>
+    
+        <div>{{user.userdesc}}
+        </div> 
+  </div>
+-->
+  
+
+  
+    <div class="row">
+    <img src="assets/vamshi.jpg" class="vamshiimage w-25 col-3" style="border-radius: 50%;  height: 100px; ">
+    <div class="col-6">
+      <div class="text-start mb-lg-1 h1 fs-2" href="#">{{user.fullname}}</div>
+      <div class="mb-lg-1 h1 fs-2" href="#">{{user.lastname}}</div>
+      <div class="mb-lg-1 h1 fs-6 text-primary" href="#">{{user.profession}}</div>
+      </div>
+      <div class="col-3">
+      <div class="fst-normal" style="align-content:right">{{user.email}}</div>
+      <div class="fst-normal" style="align-items:right">{{user.mobile}}</div>
+      <p class="fst-normal" style="align-items:right">{{user.address}}</p> 
+    </div>   
+   </div>     
+   
+  <div class="section__list-item">
+    <span class=" mb-lg-1" href="#">{{user.userdesc}}</span>
+    </div>
+   <div class="details row">
+<div class="container1 col-7 ">
+  <div class="section">
+      <div class="section__title fs-5">Education</div>
+      <div class="bg-primary col-11">
+      <hr/>
+      </div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">{{user.school}}</div>
+            <div class="duration">{{user.school_year}}</div>
+          </div>
+          
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">{{user.intermediate}}</div> 
+            <div class="duration">{{user.intermediate_year}}</div>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">{{user.degree}}</div>
+            <div class="duration">{{user.degree_year}}</div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  <div class="section">
+      <div class="section__title fs-5">Personal Projects</div> 
+      <div class="bg-primary col-11">
+        <hr/>
+        </div>
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name">{{user.project_1}}</div>
+         </div>
+         
+         <div class="section__list-item">
+                    <div class="name">{{user.project_2}}
+                    </div>
+          </div>
+          <div class="section__list-item">
+            <div class="name">{{user.project_3}}
+
+            </div>
+  </div>
+  <div class="section__list-item">
+    <div class="name">{{user.project_4}}
+      
+    </div>
+</div>
+<div class="section__list-item">
+  <div class="name">{{user.project_5}}
+    
+  </div>
+</div>
+         
+       </div>
+    </div>
+    <div class="section">
+      <div class="section__title fs-5">Work Experience</div>
+      <div class="bg-primary col-11">
+        <hr/>
+        </div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">{{user.experience_1}}</div>
+            <div class="duration">{{user.exp_years}}</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  <div class="container1 col-5">
+     <div class="section">
+       <div class="section__title fs-5">Skills</div>
+       <div class="bg-primary">
+        <hr/>
+        </div>
+       <div class="section__list">
+           <div class="section__list-item">
+            <div class="name">
+              {{user.skills}}
+             </div>
+           </div>     
+         
+      </div>  
+    </div>
+    <div class="section">
+      <div class="section__title fs-5">Organizations</div>
+      <div class="bg-primary">
+        <hr/>
+        </div>
+      <div class="section__list">
+        <div class="section__list-item">
+        
+            <div class="name">{{user.experience_1}}</div>
+            
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title fs-5">Certificates</div>
+      <div class="bg-primary">
+        <hr/>
+        </div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="section__list-item">
+            <div class="name">{{user.certificate_1}}
+            </div>
+          </div>
+          <div class="section__list-item">
+            <div class="name">{{user.certificate_2}}
+            </div>
+          </div>
+          <div class="section__list-item">
+            <div class="name">{{user.certificate_3}}
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title fs-5">Languages Known</div>
+      <div class="bg-primary">
+        <hr/>
+        </div>
+      <div class="skills">
+        <div class="skills__item">
+           <div class="name">
+            {{user.languages}}
+            </div>
+             
+      </div>   
+     </div>  
+   </div>
+     <div class="section">
+     <div class="section__title fs-5">
+       Interests
+       </div>
+       <div class="bg-primary">
+        <hr/>
+        </div>
+       <div class="section__list">
+         <div class="section__list-item">
+          <div class="name">
+            {{user.interests}}
+                  </div>
+          </div>
+       </div>
+     </div>
+     </div>
+     </div>
+     </div>
+  
